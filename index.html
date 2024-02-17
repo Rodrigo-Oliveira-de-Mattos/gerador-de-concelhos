@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+</head>
+<body>
+    <main class="container">
+        <div class="conselho">
+            <p class="numero-conselho">advice <span id="numero-conselho"></span></p>
+            <p id="texto-conselho" class="texto-conselho">"Clique no botão a baixo, e gere um conselho"</p>
+        </div>
+
+        <picture>
+            <source srcset="src/images/pattern-divider-desktop.svg" media="(min-width: 475px)">
+            <img src="src/images/pattern-divider-mobile.svg" >
+        </picture>
+
+        <button id="btn-sorteador" class="btn-sorteador">
+            <img src="src/images/icon-dice.svg">
+        </button>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
